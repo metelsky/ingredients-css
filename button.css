@@ -8,7 +8,7 @@
 */
 
 
-.Button {
+.button {
     position: relative;
 
     display: inline-block;
@@ -29,9 +29,9 @@
     white-space: nowrap; /* 6 */
 }
 
-.Button:hover,
-.Button:focus,
-.Button:active {
+.button:hover,
+.button:focus,
+.button:active {
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@
  * Remove excess padding and border in Firefox 4+
  */
 
-.Button::-moz-focus-inner {
+.button::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
