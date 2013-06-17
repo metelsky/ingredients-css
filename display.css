@@ -7,13 +7,44 @@
  */
 
 .inline {
-    display: inline !important;
+  display: inline !important;
 }
 
 .inline-block {
-    display: inline-block !important;
+  display: inline-block !important;
 }
 
 .block {
-    display: block !important;
+  display: block !important;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  
+  padding: 0;
+   
+    
+}
+
+.invisible {
+  visibility: hidden;
 }
