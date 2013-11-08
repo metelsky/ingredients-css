@@ -1,0 +1,32 @@
+/* ==========================================================================
+   Icon Component
+   ========================================================================== */
+
+
+/**
+* The basic icon class.
+* Use it with custom fonts of background-images.
+
+* Example:
+*
+* <i class="icon icon--facebook"></i>
+*
+* OR more semantic
+*
+* <span class="icon icon--facebook"></span>
+*/
+
+
+.icon {
+  position: relative;
+  display: inline-block;
+
+  text-decoration: none;
+  vertical-align: middle;
+
+  font-weight: normal;
+  font-style: normal;
+
+  background-repeat: no-repeat;
+}
+

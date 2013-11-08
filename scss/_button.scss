@@ -1,0 +1,54 @@
+/* ==========================================================================
+   Button Component
+   ========================================================================== */
+
+
+/**
+* The basic button class for links, buttons, and submit inputs.
+*/
+
+
+.button {
+    position: relative;
+
+    display: inline-block;
+
+    -webkit-appearance: none; /* 1 */
+
+    -moz-box-sizing: border-box; /* 2 */
+    box-sizing: border-box; /* 2 */
+
+    cursor: pointer;
+
+    line-height: normal; /* 5 */
+    margin: 0;
+    padding: 0;
+
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap; /* 6 */
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    text-decoration: none;
+}
+
+
+/**
+ * Remove excess padding and border in Firefox 4+
+ */
+
+.button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
